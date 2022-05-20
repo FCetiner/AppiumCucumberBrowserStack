@@ -8,7 +8,5 @@ public abstract class BasePage {
     public BasePage(){
         PageFactory.initElements(new
                 AppiumFieldDecorator(Driver.get()),this);
-
-
     }
 }
